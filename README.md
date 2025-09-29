@@ -34,10 +34,12 @@ The project can run in both venv and Docker.
     S3_BUCKET=your-bucket-name
 
 3. Build the image:
+   
     make build
 
 ## Usage (Docker)
-1. List last 3 snapshots saved on S3 (default)
+1. List last 3 snapshots saved on S3 (default):
+   
     make run
 
 Example output:
@@ -55,7 +57,8 @@ Example output:
     City: Krakow
     Temp: 17.12 °C
 
-2. Saves weather for the city on that day on S3
+2. Saves weather for the city on that day on S3:
+   
     make run CITY=Name_of_City
 
 Example output:
