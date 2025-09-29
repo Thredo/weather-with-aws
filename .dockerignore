@@ -1,0 +1,8 @@
+.env
+README.md
+Dockerfile*
+__pycache__/
+*.pyc
+.git
+tests/
+.venv
